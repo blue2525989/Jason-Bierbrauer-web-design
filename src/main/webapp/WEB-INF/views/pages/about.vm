@@ -1,0 +1,12 @@
+<div class="row featurette">
+	<div class="col-md-7">
+		#foreach($about in $mainList)
+		<h2 class="featurette-heading">$about.name</h2>
+		<p class="lead">$about.description</p>
+	</div>
+	<!-- image -->
+	<div class="col-md-5">
+			<img src="$about.url" alt="$about.name" title="$about.name" />
+		#end
+	</div>
+</div>
