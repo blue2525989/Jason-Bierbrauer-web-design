@@ -1,2 +1,2 @@
 # Jason-Bierbrauer-web-design
-A Spring, Tomcat, and Velocity web application
+A Spring Boot, Thymeleaf, and AWS web application.
